@@ -1,0 +1,82 @@
+{
+    "netflixClone": {
+        "name": "Netflix Clone",
+        "description": {
+            "ES" : "Un simple clon de Netflix",
+            "EN" : "A simple clone of Netflix"
+        },
+        "image": "/images/projects/netflix-clone.jpg",
+        "icons": ["SiNextdotjs", "SiTailwindcss", "SiThemoviedatabase"],
+        "url": ""
+    },
+    "diginautas": {
+        "name": "Diginautas",
+        "description": {
+            "ES" : "Emprendimiento Agencia Digital",
+            "EN" : "Entepreneurship Digital Agency"
+        },
+        "image": "/images/projects/diginautas.jpg",
+        "icons": ["SiWordpress", "SiReact", "SiCss3", "SiHtml5"],
+        "url": "https://diginautas.cl"
+    },
+    "nataliaGajardo": {
+        "name": "Natalia Gajardo",
+        "description": {
+            "ES" : "Sitio web profesional Artista Visual",
+            "EN" : "Professional website Visual Artist"
+        },
+        "image": "/images/projects/nataliagajardo.jpg",
+        "icons": ["SiWordpress", "SiCss3"],
+        "url": "https://nataliagajardo.com"
+    },
+    "biolight": {
+        "name": "Biolight",
+        "description": {
+            "ES" : "Sitio web coorporativo con tienda online",
+            "EN" : "Coorporate website with online store"
+        },
+        "image": "/images/projects/biolight.jpg",
+        "icons": ["SiWordpress", "SiCss3"],
+        "url": "https://biolight.cl"
+    },
+    "biouvc": {
+        "name": "BioUVC",
+        "description": {
+            "ES" : "Biolight pagina de entrada a los sitios",
+            "EN" : "Biolight landing page multiwebsite"
+        },
+        "image": "/images/projects/biouvc.jpg",
+        "icons": ["SiHtml5", "SiCss3", "SiJavascript"],
+        "url": "https://biouvc.com"
+    },
+    "ttsalach": {
+        "name": "Ttsalach Tienda Online",
+        "description": {
+            "ES" : "E-Commerce",
+            "EN" : "E-Commerce"
+        },
+        "image": "/images/projects/ttsalach.jpg",
+        "icons": ["SiWordpress","SiWoocommerce", "SiCss3"],
+        "url": "https://ttsalach.cl"
+    },
+    "sexShopConfidence": {
+        "name": "Sex Shop Confidence",
+        "description": {
+            "ES" : "E-Commerce",
+            "EN" : "E-Commerce"
+        },
+        "image": "/images/projects/sexshopconfidence.jpg",
+        "icons": ["SiWordpress","SiWoocommerce", "SiCss3"],
+        "url": "https://sexshopconfidence.cl"
+    },
+    "maktub": {
+        "name": "Maktub Store",
+        "description": {
+            "ES" : "E-Commerce (No online)",
+            "EN" : "E-Commerce (Not online)"
+        },
+        "image": "/images/projects/maktub.jpg",
+        "icons": ["SiWordpress","SiWoocommerce", "SiCss3"],
+        "url": ""
+    }
+}

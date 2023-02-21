@@ -1,0 +1,34 @@
+{
+    "EN": {
+        "about_me": "I am a highly motivated Full Stack developer, I possess a broad range of technical skills. I am a constant self-learner with a focus on continuous improvement and skill upgrading. I have developed expertise in HTML, CSS, JavaScript and ReactJS for front-end development and have experience with NodeJS, MongoDB, and ExpressJS for back-end development. Additionally, I am familiar with implementing modern and attractive designs using frameworks such as Chakra UI and Tailwind CSS. I have completed a professional certification in Front End Development and taken an intensive Web Development Bootcamp Full-Stack course, providing me with a solid foundation to tackle any IT challenge. I am a dynamic and analytical person with problem-solving skills, enabling me to work efficiently on complex projects.",
+        "projects_title": "Projects",
+        "go_to_site": "Go to site",
+        "contact_title": "Let's talk!",
+        "placeholder_name": "Name",
+        "placeholder_lastname": "Lastname",
+        "placeholder_email": "Email",
+        "placeholder_message": "Message",
+        "button_send": "Send",
+        "form_thanks_title": "Thank you !",
+        "form_thanks_message": "Let's go for a Virtual Coffee!",
+        "email_success": "Email sended",
+        "email_error": "Email error",
+        "footerMessage": "Made with ❤️ in 🇨🇱"
+    },
+    "ES": {
+        "about_me": "Soy un desarrollador Full Stack con habilidades en HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB y ExpressJS. Soy autodidacta y enfocado en el aprendizaje continuo, he completado un certificado profesional en Front End Development y un curso intensivo en Web Development Bootcamp Full-Stack. Además, tengo habilidades analíticas y dinámicas, lo que me permite abordar proyectos complejos de manera eficiente. Mi personalidad amable y organizada, junto con mi enfoque en la placeholderación constante, me convierten en una persona emocionada por explorar y crecer en el mundo de la tecnología de la inplaceholderación.",
+        "projects_title": "Proyectos",
+        "go_to_site": "Ir al sitio",
+        "contact_title": "Hablemos!",
+        "placeholder_name": "Nombre",
+        "placeholder_lastname": "Apellido",
+        "placeholder_email": "Correo electronico",
+        "placeholder_message": "Mensaje",
+        "button_send": "Enviar",
+        "form_thanks_title": "¡ Gracias !",
+        "form_thanks_message": "Vamos por un Cafe Virtual!",
+        "email_success": "Correo enviado",
+        "email_error": "Error al enviar",
+        "footerMessage": "Hecho con ❤️ en 🇨🇱"
+    }
+}
