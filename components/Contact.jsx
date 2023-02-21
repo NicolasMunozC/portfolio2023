@@ -1,4 +1,5 @@
 import translations from '@/public/translations'
+import { sendMessage } from '@/services'
 import { Box, Button, Heading, Image, Input, InputGroup, Text, Textarea, useToast } from '@chakra-ui/react'
 import { useRef, useState } from 'react'
 
@@ -11,12 +12,6 @@ function Contact({lang}) {
     const [email, setEmail] = useState('')
     const toast = useToast()
     const form = useRef()
-
-    const service_id = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID
-    const serviceNotPublic = process.env.EMAIL_SERVICE_ID
-
-    console.log('Service next public', service_id);
-    console.log('Service not public', serviceNotPublic);
 
     async function submit(e){
         e.preventDefault()
