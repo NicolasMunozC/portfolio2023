@@ -45,7 +45,7 @@ function Contact({lang}) {
     <form ref={form} onSubmit={submit}>
         <Box minH='100dvh' w='100%' display='flex' flexDir='column' placeContent='center' className='sliderMandatoryStart' mb='5rem'>
             <Box w='100%' maxW={['300px', '700px']} mx='auto' display='flex' flexDir='column' hidden={formHidden}>
-                <Heading mb='3rem'>{translations[lang].contact_title}</Heading>
+            <Heading fontSize={['5xl', '5xl', '5xl', '7xl']} fontWeight='thin' mb='3rem'>{translations[lang].contact_title}</Heading>
                 <Input mb='2rem' w='100%' placeholder={translations[lang].placeholder_name} variant='flushed' type='text' required value={name} name='user_name' onChange={(e)=>{setName(e.target.value)}} />
                 <Input mb='2rem' placeholder={translations[lang].placeholder_lastname} variant='flushed' type='text' required value={lastname} name='user_lastname' onChange={(e)=>{setLastname(e.target.value)}} />
                 <Input mb='2rem' placeholder={translations[lang].placeholder_email} variant='flushed' type='email' required value={email} name='user_email' onChange={(e)=>{setEmail(e.target.value)}} />
