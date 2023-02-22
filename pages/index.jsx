@@ -8,6 +8,7 @@ import { useLang } from '@/hooks/useLang'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
 import { Box } from '@chakra-ui/react'
+import Skills from '@/components/Skills'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <ScrollEffect />
         <FloatMenu lang={lang} toggleLang={toggleLang} />
         <AboutMe lang={lang} />
+        <Skills lang={lang} />
         <Projects lang={lang} />
         <Contact lang={lang}/>
         <Footer lang={lang} />
