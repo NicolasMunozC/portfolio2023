@@ -13,6 +13,7 @@
         "form_thanks_message": "Let's go for a Virtual Coffee!",
         "email_success": "Email sended",
         "email_error": "Email error",
+        "skills_title": "Habilidades",
         "footerMessage": "Made with ❤️ in 🇨🇱"
     },
     "ES": {
@@ -29,6 +30,7 @@
         "form_thanks_message": "Vamos por un Cafe Virtual!",
         "email_success": "Correo enviado",
         "email_error": "Error al enviar",
+        "skills_title": "Habilidades",
         "footerMessage": "Hecho con ❤️ en 🇨🇱"
     }
 }
