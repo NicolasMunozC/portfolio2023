@@ -7,6 +7,7 @@ import Projects from '@/components/Projects'
 import { useLang } from '@/hooks/useLang'
 import Footer from '@/components/Footer'
 import Contact from '@/components/Contact'
+import { Box } from '@chakra-ui/react'
 
 
 export default function Home() {

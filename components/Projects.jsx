@@ -9,7 +9,7 @@ function Projects({lang}) {
 
 
   return (
-    <Box minH='100vh' w='100%' display='grid' placeContent='center' px='30px' className='sliderMandatoryStart' mb='5rem'>
+    <Box minH='100dvh' w='100%' display='grid' placeContent='center' px='30px' className='sliderMandatoryStart' mb='5rem'>
         <Box>
             <Heading>{translations[lang].projects_title}</Heading>
         </Box>

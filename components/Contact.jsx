@@ -43,7 +43,7 @@ function Contact({lang}) {
 
   return (
     <form ref={form} onSubmit={submit}>
-        <Box minH='100vh' w='100%' display='flex' flexDir='column' placeContent='center' className='sliderMandatoryStart' mb='5rem'>
+        <Box minH='100dvh' w='100%' display='flex' flexDir='column' placeContent='center' className='sliderMandatoryStart' mb='5rem'>
             <Box w='100%' maxW={['300px', '700px']} mx='auto' display='flex' flexDir='column' hidden={formHidden}>
                 <Heading mb='3rem'>{translations[lang].contact_title}</Heading>
                 <Input mb='2rem' w='100%' placeholder={translations[lang].placeholder_name} variant='flushed' type='text' required value={name} name='user_name' onChange={(e)=>{setName(e.target.value)}} />

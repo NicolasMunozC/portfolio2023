@@ -9,7 +9,7 @@ function FloatMenu({lang, toggleLang}) {
     const spainIcon = '/spain.png'
 
   return (
-    <Box pos='fixed' right='2rem' top='0.5rem' display='flex' flexDir='row-reverse' zIndex={9999}>
+    <Box pos='fixed' right='0' top='0' display='flex' flexDir='row-reverse' zIndex={9999} w='100%' bgGradient='linear(to-b, white, transparent)' pt='0.5rem' pr='2.5rem'>
         <label className="switch">
             <Input onChange={toggleColorMode} type='checkbox' />
             <span className="slider" />
