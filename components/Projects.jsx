@@ -11,7 +11,7 @@ function Projects({lang}) {
   return (
     <Box minH='100dvh' w='100%' display='grid' placeContent='center' px='30px' className='sliderMandatoryStart' mb='5rem'>
         <Box>
-            <Heading>{translations[lang].projects_title}</Heading>
+        <Heading fontSize={['5xl', '5xl', '5xl', '7xl']} fontWeight='thin'>{translations[lang].projects_title}</Heading>
         </Box>
         <SimpleGrid spacing='10px' minChildWidth='300px'>
             {allProjects.map( project => <ProjectCard key={project} lang={lang} data={projects[project]} />)}
