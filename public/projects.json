@@ -2,12 +2,22 @@
     "netflixClone": {
         "name": "Netflix Clone",
         "description": {
-            "ES" : "Un simple clon de Netflix",
-            "EN" : "A simple clone of Netflix"
+            "ES" : "Un clon de Netflix",
+            "EN" : "A clone of Netflix"
         },
         "image": "/images/projects/netflix-clone.jpg",
-        "icons": ["SiNextdotjs", "SiTailwindcss", "SiThemoviedatabase"],
-        "url": ""
+        "icons": ["SiReact", "SiThemoviedatabase"],
+        "url": "https://netflix-clone-nmunoz.vercel.app/"
+    },
+    "dogceoChallenge": {
+        "name": "DogCeo Challenge",
+        "description": {
+            "ES" : "Un challenge de desarrollo",
+            "EN" : "A simple challenge "
+        },
+        "image": "/images/projects/dogceo.jpg",
+        "icons": ["SiReact", "SiChakraui"],
+        "url": "https://dogceo-challenge.vercel.app/"
     },
     "diginautas": {
         "name": "Diginautas",
@@ -56,7 +66,7 @@
             "EN" : "E-Commerce"
         },
         "image": "/images/projects/ttsalach.jpg",
-        "icons": ["SiWordpress","SiWoocommerce", "SiCss3"],
+        "icons": ["SiShopify"],
         "url": "https://ttsalach.cl"
     },
     "sexShopConfidence": {
@@ -76,7 +86,7 @@
             "EN" : "E-Commerce (Not online)"
         },
         "image": "/images/projects/maktub.jpg",
-        "icons": ["SiWordpress","SiWoocommerce", "SiCss3"],
+        "icons": ["SiShopify"],
         "url": ""
     }
 }
