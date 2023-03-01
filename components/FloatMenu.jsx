@@ -4,12 +4,12 @@ import { BiWorld } from 'react-icons/bi'
 import { FiGithub, FiInstagram } from 'react-icons/fi'
 
 function FloatMenu({lang, toggleLang}) {
-    const { toggleColorMode } = useColorMode()
+    const { toggleColorMode, colorMode } = useColorMode()
     const usaIcon = '/united-states.png'
     const spainIcon = '/spain.png'
 
   return (
-    <Box pos='fixed' right='0' top='0' display='flex' flexDir='row-reverse' zIndex={9999} w='100%' bgGradient='linear(to-b, white, transparent)' pt='0.5rem' pr='2.5rem'>
+    <Box pos='fixed' right='0' top='0' display='flex' flexDir='row-reverse' zIndex={9999} w='100%' bgGradient={`linear(to-b, ${colorMode === 'light' ? 'white' : '#1a202c'}, transparent)`} pt='0.5rem' pr='2.5rem'>
         <label className="switch">
             <Input onChange={toggleColorMode} type='checkbox' />
             <span className="slider" />
