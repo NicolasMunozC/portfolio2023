@@ -1,5 +1,5 @@
 import { Box, useColorMode, Input, IconButton, Image } from '@chakra-ui/react'
-import React, { useState } from 'react'
+import React from 'react'
 import { BiWorld } from 'react-icons/bi'
 import { FiGithub, FiInstagram } from 'react-icons/fi'
 
