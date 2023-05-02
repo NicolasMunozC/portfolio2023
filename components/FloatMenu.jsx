@@ -30,7 +30,7 @@ function FloatMenu({lang, toggleLang}) {
             </Box>
         </Box>
         <IconButton mr='0.5rem' icon={<FiGithub/>} isRound fontSize='2xl' onClick={()=> window.location.href='https://github.com/nicolasmunozc'} />
-        <IconButton mr='0.5rem' icon={<FiInstagram/>} isRound fontSize='2xl' onClick={()=> window.location.href='https://instagram.com/nicholasniculas'} />
+        {/* <IconButton mr='0.5rem' icon={<FiInstagram/>} isRound fontSize='2xl' onClick={()=> window.location.href='https://instagram.com/nicholasniculas'} /> */}
         
     </Box>
   )
