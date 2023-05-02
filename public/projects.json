@@ -1,4 +1,24 @@
 {
+    "pomoCode": {
+        "name": "PomoCode - Pomodoro",
+        "description": {
+            "ES" : "Pomodoro",
+            "EN" : "Pomodoro"
+        },
+        "image": "/images/projects/pomocode.jpg",
+        "icons": ["SiNextdotjs", "SiTypescript", "SiTailwindcss", "SiChakraui", "SiFigma"],
+        "url": "https://pomocode-u8zqf1qu5-nicolasmunozc.vercel.app/"
+    },
+    "victoriaBelle": {
+        "name": "Victoria Belle",
+        "description": {
+            "ES" : "E-Commerce",
+            "EN" : "E-Commerce"
+        },
+        "image": "/images/projects/victoriabelle.jpg",
+        "icons": ["SiWordpress", "SiCss3"],
+        "url": "https://victoriabelle.cl/"
+    },
     "netflixClone": {
         "name": "Netflix Clone",
         "description": {
